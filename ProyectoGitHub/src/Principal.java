@@ -60,6 +60,7 @@ public class Principal {
 	public static void MostrarMenu() {
 		System.out.println("Elige una opcion de las propuestas a continuacion/n/n");
 		System.out.println("0.- Presentacion (Camilo Juan)");
+		System.out.println("1.- Ejercicio 01 (Esteban Jimenez)");
 		System.out.println("2.-  Exercici 02 (Hector Lopez)");
 		System.out.println("11.- Ejercicio11 (Carlos Moles Valdivieso)");
 		System.out.println("12.- Ejercicio12 (Carlos Mota)");
@@ -114,6 +115,7 @@ public class Principal {
 			System.out.println("Proyecto que une todos los ejercicios del Tema 4 en un solo fichero./n/n");
 			break;
 		case 1:
+			ejercicio01();	
 			break;
 		case 2:
 			exercici02();
@@ -861,3 +863,15 @@ public class ejercicio16 {
 		} while (pedir = false);
 	}
 }
+	public class ejercicio01 {
+
+	static void tablas () {
+		// TODO Auto-generated method stub
+		for( int x=1; x<=10; x++) {
+			System.out.println("<-------TABLA DEL "+x+ "------->");
+			for(int y=1;y<=10; y++) {
+				System.out.println(+x+ "x"+x*y);
+			}
+		
+		}
+	}
